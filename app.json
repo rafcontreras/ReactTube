@@ -6,11 +6,11 @@
         "backgroundImage": "./assets/images/android/ic_launcher_background.png",
         "monochromeImage": "./assets/images/android/ic_launcher_monochrome.png"
       },
-      "package": "com.duell10111.reacttube"
+      "package": "as.contrer.TacoTubeRN"
     },
     "ios": {
       "icon": "./assets/images/ios_icon.png",
-      "bundleIdentifier": "com.duell10111.reacttube",
+      "bundleIdentifier": "as.contrer.TacoTubeRN",
       "supportsTablet": true,
       "config": {
         "usesNonExemptEncryption": false
