@@ -27,7 +27,7 @@ jobs:
       - name: Build Expo IPA
         run: |
           cd ios
-          xcodebuild -scheme reacttube -workspace reacttube.xcworkspace -configuration release -sdk iphonesimulator -derivedDataPath build
+          xcodebuild -scheme reacttube -workspace reacttube.xcworkspace -configuration release -sdk iphonesimulator CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO -derivedDataPath build
           ../scripts/xcarchive_to_ipa.sh reacttube.xcarchive
       - name: Upload IPA
         uses: actions/upload-artifact@v4
