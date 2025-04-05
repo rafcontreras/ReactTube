@@ -9,7 +9,7 @@ on:
 
 jobs:
   build_ios_without_signing_tvos:
-    name: Build Expo (tvOS) Without Signing
+    name: Build Expo (tvOS sim) Without Signing
     runs-on: macos-latest
     steps:
       - name: Checkout repository
